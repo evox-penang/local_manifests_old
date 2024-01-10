@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="evox-penang"
+          fetch="https://github.com/evox-penang/" />
+
+  <remove-project name="android_device_motorola_targets" />
+  <project path="device/motorola/targets" name="android_device_motorola_targets" remote="evox-penang" revision="master" />
+
+  <!-- Moto g53j / g53y 5G -->
+  <project path="device/motorola/penang" name="android_device_motorola_penang" remote="evox-penang" revision="14" />
+  <project path="vendor/motorola/penang" name="android_vendor_motorola_penang" remote="evox-penang" revision="14" />
+  <project path="device/motorola/penang-kernel" name="android_device_motorola_penang-kernel" remote="evox-penang" revision="14" />
+</manifest>
