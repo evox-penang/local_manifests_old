@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="evox-penang"
+          fetch="https://github.com/evox-penang/" />
+
+  <!-- Moto g53j / g53y / g53s 5G -->
+  <project path="device/motorola/penang" name="android_device_motorola_penang" remote="evox-penang" revision="14" />
+  <project path="vendor/motorola/penang" name="android_vendor_motorola_penang" remote="evox-penang" revision="14" />
+  <project path="device/motorola/penang-kernel" name="android_device_motorola_penang-kernel" remote="moto-common" revision="master" />
+
+  <!-- Kernel Source (Use staging) -->
+  <remove-project name="android_kernel_motorola_msm-5.4" />
+  <project path="kernel/motorola/msm-5.4" name="android_kernel_motorola_msm-5.4" remote="moto-common" revision="staging/14" />
+
+  <!-- Common -->
+  <remove-project name="android_device_motorola_common" />
+  <remove-project name="android_device_motorola_sm4350-common" />
+  <project path="device/motorola/common" name="android_device_motorola_common" remote="evox-penang" revision="14" />
+  <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common" remote="evox-penang" revision="14" />
+
+  <!-- FM -->
+  <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="platform_vendor_qcom_opensource_fm-commonsys" remote="moto-common" revision="14" />
+</manifest>
