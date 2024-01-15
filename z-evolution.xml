@@ -21,4 +21,17 @@
   <!-- FM -->
   <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="platform_vendor_qcom_opensource_fm-commonsys" remote="moto-common" revision="14" />
+
+  <!-- QTI NXP NFC (our forked) -->
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="evox-penang" revision="14" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="evox-penang" revision="14" />
+
+  <!-- QTI NXP NFC (from AOSPA) -->
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="uvite-pn5xx" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="uvite-pn5xx" />
+  <project path="vendor/nxp/opensource/keymaster" name="AOSPA/android_vendor_nxp_opensource_keymaster" remote="github" revision="uvite" />
+
+  <!-- QTI NXP NFC (from CAF) -->
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform/vendor/nxp/opensource/frameworks" remote="clo-la" revision="refs/tags/LA.QSSI.14.0.r1-11500-qssi.0" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform/vendor/nxp/interfaces/opensource/nfc" remote="clo-la" revision="refs/tags/LA.QSSI.14.0.r1-11500-qssi.0" />
 </manifest>
