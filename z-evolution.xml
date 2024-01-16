@@ -27,8 +27,8 @@
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="evox-penang" revision="14" />
 
   <!-- QTI NXP NFC (from AOSPA) -->
-  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="uvite-pn5xx" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="uvite-pn5xx" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="uvite-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="uvite-SN100X-legacy" />
   <project path="vendor/nxp/opensource/keymaster" name="AOSPA/android_vendor_nxp_opensource_keymaster" remote="github" revision="uvite" />
 
   <!-- QTI NXP NFC (from CAF) -->
